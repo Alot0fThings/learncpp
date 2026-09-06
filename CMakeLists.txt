@@ -3,4 +3,5 @@ project(learnCpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(learnCpp main.cpp)
+add_executable(learnCpp src/main.cpp
+        include/Matrix.hpp)
